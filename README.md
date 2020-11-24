@@ -1,10 +1,15 @@
-This app allows you to search for photos by image
-meta tags like author, camera, tags. 
+This app allows you to search for photos by image meta tags like author, camera, tags. 
+
 The service receives photos from a third-party service and stores them in its cache.
+
 The cache is updated on its own in time.
+
 The cache is built on the in-memory m2 database, which is created automatically when 
+
 the application starts. You do not need to install any additional bases.
+
 To build a jar-file, run the command mvn clean package
+
 All application parameters are located in application.properties file.
 The server starts by default on port 8090. 
 scheduler.update.delay - time in mils for scheduled update cache.
